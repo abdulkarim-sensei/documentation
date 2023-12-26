@@ -1,58 +1,65 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Documentation Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      body {
-        background-color: black;
-        color: white;
-        font-family: Arial, sans-serif;
-      }
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Documentation Page</title>
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #1a1a1a;
+      text-align: center;
+    }
+
+    h1, h2, p {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #ff3333;
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 768px) {
       .container {
-        width: 80%;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: black;
+        width: 90%;
       }
-      .websites, .line-contact {
-        margin-top: 20px;
-      }
-      .websites a, .line-contact a {
-        color: red;
-        margin: 5px 0;
-        text-decoration: none;
-      }
-      @media only screen and (max-width: 768px) {
-        .container {
-          width: 90%;
-        }
-      }
-      @media only screen and (max-width: 480px) {
-        .container {
-          width: 100%;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Welcome to My Documentation Page</h1>
-      <p>Basically, This is just a test for now</p>
-      <p>But in the soon future, you will find the docs for any APIs or services I may provide for free on my GitHub.</p>
-      <p>So.. Stay Tuned!</p>
+    }
 
-      <h2>Check out my other websites!</h2>
-      <div class="websites">
-        <a href="http://mr-abdulkarim.com" target="_blank">mr-abdulkarim.com</a><br>
-        <a href="http://api.mr-abdulkarim.com" target="_blank">api.mr-abdulkarim.com</a><br>
-        <a href="http://liff.mr-abdulkarim.com" target="_blank">liff.mr-abdulkarim.com</a>
-      </div>
+    @media only screen and (max-width: 480px) {
+      .container {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to My Documentation Page</h1>
+    <p>Currently in testing, but soon you'll find documentation for APIs and services on my GitHub.</p>
+    <p>Stay tuned for updates!</p>
 
-      <h2>Contact me on LINE if you are interested in anything or need any kind of help</h2>
-      <div class="line-contact">
-        <a href="https://line.me/ti/p/~mr.abdulkarim" target="_blank">My LINE Account</a>
-      </div>
+    <h2>Explore My Websites:</h2>
+    <div class="websites">
+      <a href="#" target="_blank">Your Website 1</a><br>
+      <a href="#" target="_blank">Your Website 2</a><br>
+      <a href="#" target="_blank">Your Website 3</a>
     </div>
-  </body>
+
+    <h2>Contact Me on LINE for Inquiries or Assistance:</h2>
+    <div class="line-contact">
+      <a href="#" target="_blank">My LINE Account</a>
+    </div>
+  </div>
+</body>
 </html>
